@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'todo';
+  title = 'My Todos';
+  todo = [
+    { label: 'HTML/CSS', priority: 'High', done: true },
+    { label: 'Bootstrap', priority: 'Low', done: true },
+    { label: 'Angular', priority: 'High', done: true }
+  ];
 }
